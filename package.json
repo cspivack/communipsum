@@ -1,0 +1,29 @@
+{
+  "name": "communipsum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cspivack/communipsum.git",
+  "author": "cspivack <spivack.craig@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-csso": "^3.0.0",
+    "gulp-footer": "^1.0.5",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-riot": "^1.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-shorthand": "^1.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "1.7.2",
+    "run-sequence": "^1.2.2"
+  }
+}

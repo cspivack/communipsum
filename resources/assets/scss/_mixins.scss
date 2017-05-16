@@ -1,0 +1,10 @@
+@mixin selection($bg, $color) {
+  &::-moz-selection {
+    color: $color;
+    background: $bg;
+  }
+  &::selection {
+    color: $color;
+    background: $bg;
+  } 
+}
