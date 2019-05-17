@@ -12,10 +12,10 @@ class PageController extends Controller
 	{
 
 		return \Cache::remember('homepage', 30, function() {
-			
+
 			$response = file_get_contents(app()->basePath('index.html'));
 
-			$response = str_replace('{{url}}', url(), $response);
+			$response = str_replace('{{url}}', env('APP_URL'), $response);
 
 			return $response;
 
